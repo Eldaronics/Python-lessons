@@ -1,0 +1,7 @@
+s = input("Hello,Type something: ")
+for c in s:
+  if c == 'w':
+      print(c,"is not accepted")
+      break
+  else:
+      print( c,"is ok")
